@@ -29,6 +29,10 @@ export default function Navbar() {
       <NavLink to="/products">
         Products
       </NavLink>
+
+      <NavLink to="/profile">
+        Profile
+      </NavLink>
     </>
   );
 
