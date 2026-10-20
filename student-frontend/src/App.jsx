@@ -12,6 +12,8 @@ import About from "./pages/About";
 import ProductsPage from "./pages/Products";
 import ProductDetails from "./pages/ProductDetails";
 import Profile from "./pages/profile";
+import Contact from "./pages/Contact";
+
 
 
 function App() {
@@ -30,6 +32,7 @@ function App() {
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/products/:id" element={<ProductDetails />} />
         <Route path="/profile" element={<Profile name="John Doe" age={25} course="Computer Science" />} /> 
+        <Route path="/contact" element={<Contact />} />
 
       </Route>
 

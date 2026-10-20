@@ -33,6 +33,10 @@ export default function Navbar() {
       <NavLink to="/profile">
         Profile
       </NavLink>
+
+      <NavLink to="/contact">
+        Contact
+      </NavLink>
     </>
   );
 
